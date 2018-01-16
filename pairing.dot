@@ -10,7 +10,7 @@ digraph G {
     eggs -> sparkling;
     oysters -> sparkling;
     red_meat -> sparkling[color=red];
-    spicy_dishes -> sparkling[color=red];
+    spicy_food -> sparkling[color=red];
     cream_sauces -> sparkling[color=red];
     dry_white -> pinot_gris;
     dry_white -> sauvignon_blanc;
@@ -61,5 +61,33 @@ digraph G {
     truffles -> earthy;
     salty -> light_red[color=red];
     smoked_food -> light_red[color=red]; 
-    
+    medium_red -> cabernet_sauvignon;
+    medium_red -> merlot;
+    medium_red -> bordeaux;
+    red_meat -> medium_red;
+    potatoes -> medium_red; 
+    braised_dishes -> medium_red;
+    cheese -> blue_cheese;
+    blue_cheese -> gorgonzola;
+    blue_cheese -> roquefort;
+    blue_cheese -> medium_red;
+    rich -> medium_red;
+    savory -> medium_red;
+    spicy_food -> medium_red[color=red];
+    oysters -> medium_red[color=red];
+    raw_fish -> medium_red[color=red];
+    bold_red -> sirah;
+    bold_red -> malbec;
+    bold_red -> mourvedre;
+    stew -> bold_red;
+    lamb -> bold_red;
+    pate -> bold_red;
+    cheese -> smoked_cheddar;
+    smoked_cheddar -> bold_red;
+    bold -> bold_red;
+    fatty -> bold_red;
+    seefood -> bold_red[color=red];
+    eggs -> bold_red[color=red];
+    salad -> bold_red[color=red];
 }
+
